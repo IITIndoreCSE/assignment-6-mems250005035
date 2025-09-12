@@ -29,8 +29,11 @@ sizeof(arr2[0]);
  for (int i = 0; i< newsize; i++)
 {
  cout << joinedArray[i] << " " ;
+   }
+   cout << endl ;
+   delete[]joinedArray;
+   return 0;
 }
-cu
 
 
 
