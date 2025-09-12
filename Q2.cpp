@@ -24,7 +24,13 @@ sizeof(arr1[0]);
 sizeof(arr2[0]);
 
  int newsize;
- int*
+ int* joinedArray = join(arr1 , size1 , arr2 size2 , newsize);
+ cout << " Joined Array: ";
+ for (int i = 0; i< newsize; i++)
+{
+ cout << joinedArray[i] << " " ;
+}
+cu
 
 
 
