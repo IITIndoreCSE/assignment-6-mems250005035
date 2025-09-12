@@ -1,4 +1,17 @@
 // Write a program in C++ to create a function called join that joins two smaller arrays and creates a larger one. The two small arrays should be passed as parameters in the function and the larger array should be returned.
+#include <iostream>
+using namespace std;
+int* join( int arr1[] , int size1, int arr2[], int size2 int &newsize) {
+  newsize = size1 + size2 ;
+int* result= new
+int[newsize];
+ for (int i = 0; i < size1; i++) {
+    result[i] = arr1[i] ;
+ }
+for (int j= 0; j < size2; j++) {
+result[size1 + j] = arr2[j];
+}
+
 
 
 
