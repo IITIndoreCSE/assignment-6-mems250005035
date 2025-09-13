@@ -21,7 +21,9 @@ for (int i=0; i < SIZE ; i++ ) {
     }
 }
 if (found) {
-   cout << "Found at position " << endl;
+   cout << "Found at position " << position << endl;
+} else {
+  cout << "Not Found" << endl;
 }
 return 0;
 }
