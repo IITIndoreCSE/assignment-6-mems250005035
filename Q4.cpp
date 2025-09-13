@@ -6,6 +6,10 @@ int main() {
 int arr[SIZE];
 cout <<"Enter" << SIZE << "integers :\n";
 for (int i = 0; i < SIZE; i++) {
+  cin >> arr[i];
+}
+int target;
+cout << "Enter number to search:";
 cin>> target;
 bool found = false;
 int position = -1;
