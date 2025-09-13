@@ -14,6 +14,13 @@ for (int i=0; i < SIZE ; i++ ) {
        found = true;
        position = i;
        break;
+    }
+}
+if (found) {
+   cout << "Found at position " << endl;
+}
+return 0;
+}
 
 
 
