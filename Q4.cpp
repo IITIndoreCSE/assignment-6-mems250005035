@@ -10,7 +10,7 @@ for (int i = 0; i < SIZE; i++) {
 }
 int target;
 cout << "Enter number to search:";
-cin>> target;
+cin >> target;
 bool found = false;
 int position = -1;
 for (int i=0; i < SIZE ; i++ ) {
