@@ -5,7 +5,7 @@ int main() {
   const int SIZE = 10;
 int arr[SIZE];
 cout <<"Enter" << SIZE << "integers :\n";
-for (int0 i = 0; i < SIZE; i++) {
+for (int i = 0; i < SIZE; i++) {
 cin>> target;
 bool found = false;
 int position = -1;
