@@ -1,4 +1,21 @@
 // Write a program that populates an integer array, goes through it step by step and searches for a given number entered by the user. If the number is found, it should print “found” and return the position of the number; otherwise print “not found”.
+#include <iostream>
+using namespace std;
+int main() {
+  const int SIZE = 10;
+int arr[SIZE];
+cout <<"Enter" << SIZE << "integers :\n";
+for (int0 i = 0; i < SIZE; i++) {
+cin>> target;
+bool found = false;
+int position = -1;
+for (int i=0; i < SIZE ; i++ ) {
+    if (arr[i] == target) {
+       found = true;
+       position = i;
+       break;
+
+
 
 
 
